@@ -1,0 +1,14 @@
+
+.page{
+    width: 500px;
+    justify-content: center;
+}
+
+.indexButton{
+    background-color: #689f38;
+    border:none;
+    color:white;
+    cursor:pointer;
+    padding: 20px 48px;
+    border-radius: 10px;
+}
