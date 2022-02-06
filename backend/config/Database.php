@@ -1,7 +1,7 @@
 <?php
 class Database {
     // DB Params
-    private $host = 'localhost:3307';
+    private $host = 'localhost:3306';
     private $db_name = 'chinook';
     private $username = 'root';
     private $password = '';

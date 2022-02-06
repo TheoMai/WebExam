@@ -5,8 +5,6 @@ const table = document.getElementById('tableRow')
 
 showArtists().then();
 
-
-
 async function showArtists(){
     let data = await getAllArtist()
     buildArtistTable(data)

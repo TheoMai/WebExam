@@ -5,8 +5,8 @@
     <title>Final Project</title>
     <link rel="stylesheet" href="auth.css">
 </head>
-<body>
-
+<body class="background">
+<div>
 <div class="page">
     <form action='../../backend/api/customer/logIn.php' method="post">
         <div class="formGroup">
@@ -20,6 +20,7 @@
         <input type="submit" value="log in" name="login">
     </form>
     <p>You don't have an account? <a href="signUp.php">Create account</a></p>
+</div>
 </div>
 <script src="auth.js"></script>
 </body>

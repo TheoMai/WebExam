@@ -32,12 +32,8 @@ function Login($con, $Email, $Password){
     if($query->rowCount() == 1){
         $result = $query->fetch(PDO::FETCH_ASSOC);
         $FirstName = $result['FirstName'];
-        $Address = $result['Address'];
-        $Email = $result['Email'];
-
         $_SESSION['FirstName'] = $FirstName;
-        $_SESSION['Email'] = $Email;
-        $_SESSION['Address'] = $Address;
+
         header("Location: ../../../frontend/main/mainShop.php");
     }else{
         echo "Wrong credentials";

@@ -21,11 +21,16 @@ echo "  <a href='update.php'>Update User</a>  ";
 ?>
 
 <div class="mainContainer">
+
     <div id="row-center">
-        <button onclick="showArtists().then()" class="selectAllButton">Select Artists</button>
-        <button onclick="showAlbums().then()" class="selectAllButton">Select Albums</button>
-        <button onclick="showTracks().then()" class="selectAllButton">Select Tracks</button>
+        <button onclick="showArtists().then()" class="selectButton all">Select Artists</button>
+        <button onclick="showAlbums().then()" class="selectButton all">Select Albums</button>
+        <button onclick="showTracks().then()" class="selectButton all">Select Tracks</button>
+        <div id="cart">
+            <button onclick="showArtists().then()" class="selectButton cart">Cart</button>
+        </div>
     </div>
+
     <div id="table">
         <table>
             <tr id="header">
